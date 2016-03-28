@@ -363,9 +363,9 @@ playerjs.Player.prototype.send = function(data, callback, ctx){
 playerjs.Player.prototype.receive = function(e){
   playerjs.log('Player.receive', e);
 
-  if (e.origin !== this.origin){
-    return false;
-  }
+  // if (e.origin !== this.origin){
+  //   return false;
+  // }
 
   var data;
   try {
